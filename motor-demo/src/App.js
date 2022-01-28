@@ -1,4 +1,5 @@
-import { Routes, Route} from "react-router-dom";
+import './App.css';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Dashboard from './core/components/dashboard/dashboard';
 import Reports from './core/components/reports/reports';
 import Layout from './core/components/layout/layout';
